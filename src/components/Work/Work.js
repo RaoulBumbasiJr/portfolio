@@ -1,10 +1,15 @@
 import React from "react";
+import "./Work.css";
 
 const Work = () => {
   return (
     <div>
-      <h1>My Work</h1>
-      <p>This is the Work page where I showcase my projects.</p>
+      <div className="workSection1">
+        <h1 className="workHeading1">Check out my portfolio</h1>
+      </div>
+      <div>
+        <div></div>
+      </div>
     </div>
   );
 };
