@@ -15,3 +15,44 @@
   font-size: 45px;
   font-weight: 100;
 }
+
+.workColumn1 {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  flex-direction: row;
+}
+
+.workTextContainer {
+  padding-bottom: 150px;
+}
+
+.projectTitle {
+  margin: 0;
+  font-weight: 700;
+  color: #4d4d4d;
+  text-align: left;
+}
+
+.projectDescription {
+  font-size: 15px;
+  text-align: left;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+}
+
+.tagTitle {
+  color: #b8b8b8;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.workImageContainer {
+  height: 290px;
+  width: 605px;
+}
