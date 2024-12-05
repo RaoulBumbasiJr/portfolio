@@ -31,6 +31,19 @@ const Work = () => {
         <div className="workImageContainer">
           <img src={skateapp} alt="skateapp" width="605" height="290" />
         </div>
+        <div className="workTextContainer">
+          <h2 className="projectTitle">SKATEAPP.NET</h2>
+          <p className="projectDescription">
+            Website created for mobile app SkateApp. Made <br /> pages using
+            React Native. Front-end website <br /> and mobile development.
+          </p>
+          <div className="tags">
+            <Tag />
+            <t className="tagTitle">Website Development</t>
+            <Tag />
+            <t className="tagTitle">React Native</t>
+          </div>
+        </div>
       </div>
     </div>
   );
