@@ -7,7 +7,7 @@ const Navigation = () => {
     <nav className="nav">
       <ul className="navList">
         <li className="navItem">
-          <Link to="/" className="name">
+          <Link to="/" className="fullname">
             Raoul Bumbasi Jr
           </Link>
         </li>

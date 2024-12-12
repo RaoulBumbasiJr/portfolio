@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
 import "./Contact.css";
 
 const Contact = () => {
@@ -16,8 +17,32 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Form Data Submitted:", formData);
-    // Add your submission logic here, such as an API call
+
+    console.log("Form Data to send:", formData);
+
+    const serviceId = "service_9tp0tcm"; // Replace with your EmailJS Service ID
+    const templateId = "template_t48s3il"; // Replace with your EmailJS Template ID
+    const publicKey = "oS2eEjMogFb8RCanX"; // Replace with your Public API Key
+
+    const templateParams = {
+      name: formData.name,
+      email: formData.email,
+      budget: formData.budget,
+      description: formData.description,
+    };
+
+    console.log("Template Params to send:", templateParams);
+
+    emailjs
+      .send(serviceId, templateId, formData, publicKey)
+      .then((response) => {
+        console.log("Email sent successfully!", response.status, response.text);
+        alert("Email sent successfully!");
+      })
+      .catch((error) => {
+        console.error("Error sending email:", error);
+        alert("Failed to send email. Please try again.");
+      });
   };
 
   return (
