@@ -27,6 +27,8 @@
 
 .workTextContainer {
   padding-bottom: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .projectTitle {
@@ -55,6 +57,5 @@
 .workImageContainer {
   height: 290px;
   width: 605px;
-  padding-left: 20px;
-  padding-right: 20px;
+  border: 5px solid #000;
 }

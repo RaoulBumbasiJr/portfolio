@@ -2,6 +2,8 @@ import React from "react";
 import "./Work.css";
 import Tag from "../../assets/svg/Tag";
 import skateapp from "../../assets/images/skateapp.png";
+import superapps from "../../assets/images/superapps.png";
+import skateappmobile from "../../assets/images/skateappMobile.png";
 
 const Work = () => {
   return (
@@ -29,13 +31,13 @@ const Work = () => {
       </div>
       <div className="workColumn1">
         <div className="workImageContainer">
-          <img src={skateapp} alt="skateapp" width="605" height="290" />
+          <img src={superapps} alt="superapps" width="605" height="290" />
         </div>
         <div className="workTextContainer">
-          <h2 className="projectTitle">SKATEAPP.NET</h2>
+          <h2 className="projectTitle">SUPERAPPS.COM</h2>
           <p className="projectDescription">
-            Website created for mobile app SkateApp. Made <br /> pages using
-            React Native. Front-end website <br /> and mobile development.
+            Website created for SuperApps LLC. Made <br /> pages using React
+            Native. Front-end website <br /> and mobile development.
           </p>
           <div className="tags">
             <Tag />
@@ -47,20 +49,21 @@ const Work = () => {
       </div>
       <div className="workColumn1">
         <div className="workTextContainer">
-          <h2 className="projectTitle">SKATEAPP.NET</h2>
+          <h2 className="projectTitle">SKATEAPP MOBILE</h2>
           <p className="projectDescription">
-            Website created for mobile app SkateApp. Made <br /> pages using
-            React Native. Front-end website <br /> and mobile development.
+            Mobile app created for skaters to find skate <br /> spots using a
+            GPS system. Coded with React <br /> Native and Expo for IOS and
+            Android.
           </p>
           <div className="tags">
             <Tag />
-            <t className="tagTitle">Website Development</t>
+            <t className="tagTitle">Mobile Development</t>
             <Tag />
             <t className="tagTitle">React Native</t>
           </div>
         </div>
         <div className="workImageContainer">
-          <img src={skateapp} alt="skateapp" width="605" height="290" />
+          <img src={skateappmobile} alt="skateapp" width="605" height="290" />
         </div>
       </div>
       <div className="workColumn1">
@@ -68,14 +71,15 @@ const Work = () => {
           <img src={skateapp} alt="skateapp" width="605" height="290" />
         </div>
         <div className="workTextContainer">
-          <h2 className="projectTitle">SKATEAPP.NET</h2>
+          <h2 className="projectTitle">POKEDEX APP</h2>
           <p className="projectDescription">
-            Website created for mobile app SkateApp. Made <br /> pages using
-            React Native. Front-end website <br /> and mobile development.
+            Mobile app that features a fully functional <br /> Pokedex to search
+            Pokemon using the PokeAPI. <br /> Coded with React Native and Expo
+            for IOS and <br /> Android.
           </p>
           <div className="tags">
             <Tag />
-            <t className="tagTitle">Website Development</t>
+            <t className="tagTitle">Mobile Development</t>
             <Tag />
             <t className="tagTitle">React Native</t>
           </div>
