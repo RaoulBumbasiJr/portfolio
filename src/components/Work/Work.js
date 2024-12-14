@@ -4,6 +4,7 @@ import Tag from "../../assets/svg/Tag";
 import skateapp from "../../assets/images/skateapp.png";
 import superapps from "../../assets/images/superapps.png";
 import skateappmobile from "../../assets/images/skateappMobile.png";
+import pokedexapp from "../../assets/images/pokedexapp.png";
 
 const Work = () => {
   return (
@@ -68,7 +69,7 @@ const Work = () => {
       </div>
       <div className="workColumn1">
         <div className="workImageContainer">
-          <img src={skateapp} alt="skateapp" width="605" height="290" />
+          <img src={pokedexapp} alt="skateapp" width="605" height="290" />
         </div>
         <div className="workTextContainer">
           <h2 className="projectTitle">POKEDEX APP</h2>
