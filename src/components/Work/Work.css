@@ -1,3 +1,4 @@
+/* Default Styles */
 .workSection1 {
   background-color: #4d4d4d;
   width: 100%;
@@ -58,4 +59,69 @@
   height: 290px;
   width: 605px;
   border: 5px solid #000;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .workHeading1 {
+    font-size: 35px; /* Reduce heading size */
+  }
+
+  .workColumn1 {
+    flex-direction: column; /* Stack elements vertically */
+    height: auto;
+    text-align: center; /* Center text for smaller screens */
+  }
+
+  .workTextContainer {
+    padding-bottom: 50px; /* Adjust padding for smaller screens */
+  }
+
+  .workImageContainer {
+    width: 90%; /* Reduce image width */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+@media (max-width: 768px) {
+  .workHeading1 {
+    font-size: 28px; /* Further reduce heading size */
+  }
+
+  .projectDescription {
+    font-size: 14px; /* Adjust description font size */
+  }
+
+  .tags {
+    flex-direction: column; /* Stack tags vertically */
+    align-items: center;
+  }
+
+  .tagTitle {
+    padding: 5px; /* Reduce padding around tags */
+  }
+}
+
+@media (max-width: 480px) {
+  .workSection1 {
+    height: auto; /* Allow height to adjust to content */
+    padding: 10px;
+  }
+
+  .workHeading1 {
+    font-size: 24px; /* Further reduce heading size */
+  }
+
+  .workImageContainer {
+    width: 100%; /* Full width for smaller screens */
+    margin-bottom: 20px; /* Add spacing between elements */
+  }
+
+  .projectTitle {
+    font-size: 16px; /* Adjust title font size */
+  }
+
+  .projectDescription {
+    font-size: 12px; /* Adjust description font size */
+  }
 }
