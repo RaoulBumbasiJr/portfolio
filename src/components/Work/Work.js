@@ -25,6 +25,9 @@ const Work = () => {
             <Tag />
             <t className="tagTitle">React Native</t>
           </div>
+          <div className="projectLinkWrapper">
+            <button className="projectLink">VIEW PROJECT</button>
+          </div>
         </div>
         <div className="workImageContainer">
           <img src={skateapp} alt="skateapp" width="605" height="290" />
