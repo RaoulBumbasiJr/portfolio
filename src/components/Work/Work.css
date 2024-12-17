@@ -70,6 +70,8 @@
   text-transform: uppercase;
   cursor: pointer;
   letter-spacing: 1px;
+  padding: 5px 5px;
+  text-decoration: none;
 
   transform: translateY(20px); /* Move the button 20px down */
   display: inline-block; /* Ensures no unintended behavior */

@@ -26,7 +26,14 @@ const Work = () => {
             <t className="tagTitle">React Native</t>
           </div>
           <div className="projectLinkWrapper">
-            <button className="projectLink">VIEW PROJECT</button>
+            <a
+              href="https://www.skateapp.net/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="projectLink"
+            >
+              VIEW PROJECT
+            </a>
           </div>
         </div>
         <div className="workImageContainer">
