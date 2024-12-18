@@ -56,6 +56,14 @@ const Work = () => {
             <Tag />
             <t className="tagTitle">React Native</t>
           </div>
+          <a
+            href="https://www.superapps.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="projectLink"
+          >
+            VIEW PROJECT
+          </a>
         </div>
       </div>
       <div className="workColumn1">
@@ -72,6 +80,14 @@ const Work = () => {
             <Tag />
             <t className="tagTitle">React Native</t>
           </div>
+          <a
+            href="https://www.skateapp.net/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="projectLink"
+          >
+            VIEW PROJECT
+          </a>
         </div>
         <div className="workImageContainer">
           <img src={skateappmobile} alt="skateapp" width="605" height="290" />
@@ -94,6 +110,14 @@ const Work = () => {
             <Tag />
             <t className="tagTitle">React Native</t>
           </div>
+          <a
+            href="https://www.skateapp.net/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="projectLink"
+          >
+            VIEW PROJECT
+          </a>
         </div>
       </div>
     </div>
