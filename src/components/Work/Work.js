@@ -5,6 +5,7 @@ import skateapp from "../../assets/images/skateapp.png";
 import superapps from "../../assets/images/superapps.png";
 import skateappmobile from "../../assets/images/skateappMobile.png";
 import pokedexapp from "../../assets/images/pokedexapp.png";
+import { Link } from "react-router-dom";
 
 const Work = () => {
   return (
@@ -80,14 +81,14 @@ const Work = () => {
             <Tag />
             <t className="tagTitle">React Native</t>
           </div>
-          <a
-            href="https://www.skateapp.net/"
+          <Link
+            to="/skateappmobile"
             target="_blank"
             rel="noopener noreferrer"
             className="projectLink"
           >
             VIEW PROJECT
-          </a>
+          </Link>
         </div>
         <div className="workImageContainer">
           <img src={skateappmobile} alt="skateapp" width="605" height="290" />
@@ -110,14 +111,14 @@ const Work = () => {
             <Tag />
             <t className="tagTitle">React Native</t>
           </div>
-          <a
-            href="https://www.skateapp.net/"
+          <Link
+            to="/pokedex"
             target="_blank"
             rel="noopener noreferrer"
             className="projectLink"
           >
             VIEW PROJECT
-          </a>
+          </Link>
         </div>
       </div>
     </div>
