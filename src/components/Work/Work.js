@@ -27,6 +27,11 @@ const Work = () => {
           <img src={skateapp} alt="skateapp" width="605" height="290" />
         </div>
       </div>
+      <div className="workColumn1">
+        <div className="workImageContainer">
+          <img src={skateapp} alt="skateapp" width="605" height="290" />
+        </div>
+      </div>
     </div>
   );
 };
